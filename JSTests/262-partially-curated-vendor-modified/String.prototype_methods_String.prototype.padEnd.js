@@ -117,3 +117,5 @@ function shouldThrow(func, errorMessage) {
         shouldBe(i > "123".length ? i : 3, actual.length);
     }
 })();
+
+// Vendor modification
