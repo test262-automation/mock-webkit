@@ -131,3 +131,5 @@ function shouldThrow(func, errorMessage) {
         shouldBeIteratorResult(g.return(42), { value: 42, done: true });
     }
 }());
+
+// modify generator-return.js in the vendor repo
