@@ -400,3 +400,5 @@ function shouldBe(actual, expected) {
     Cocoa.taste = 'great';
     shouldBe(Cocoa.taste, 'awesome');
 }());
+
+// modify duplicate-computed-accessors.js in the vendor repo
