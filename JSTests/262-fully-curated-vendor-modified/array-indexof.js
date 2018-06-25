@@ -33,3 +33,6 @@ function shouldBe(actual, expected)
     for (var i = 0; i < 1e5; ++i)
         shouldBe(indexOf(array, 42 + 0.5), 42);
 }());
+
+
+// Modify array-indexof.js in the vendor repo
