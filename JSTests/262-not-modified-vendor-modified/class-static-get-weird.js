@@ -17,3 +17,5 @@
     class c { static get length() { return 42; } }
     if (c.length !== 42) throw "Fail";
 }
+
+// modify class-static-get-weird.js in the vendor repo
