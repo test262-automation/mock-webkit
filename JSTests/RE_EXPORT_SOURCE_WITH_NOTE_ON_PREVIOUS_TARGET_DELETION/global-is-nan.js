@@ -17,3 +17,5 @@ for (var i = 0; i < 1e4; ++i)
     shouldBe(isNaN("0"), false);
 shouldBe(isNaN("Hello"), true);
 shouldBe(isNaN("NaN"), true);
+
+// modify global-is-nan.js in the vendor repo
