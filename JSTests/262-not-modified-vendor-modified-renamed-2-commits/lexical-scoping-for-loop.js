@@ -57,5 +57,7 @@ let test12 = (x) => {
     return x;
 }
 
+// Edit lexical-scoping-for-loop.js
+
 for (let test of [test1, test2, test3, test4, test5, test7, test8, test9, test10, test11, test12])
     assert(test("foo") === "foo");
