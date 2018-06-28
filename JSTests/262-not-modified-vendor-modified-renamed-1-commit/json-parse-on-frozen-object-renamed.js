@@ -73,3 +73,5 @@ runTest(10000, frozenArrayReviver,                     "unmodifiable", undefined
 runTest(10001, frozenArrayLikeObjectReviver,           "unmodifiable", undefined);
 runTest(10002, frozenArrayReviverWithDelete,           "unmodifiable", undefined);
 runTest(10003, frozenArrayLikeObjectReviverWithDelete, "unmodifiable", undefined);
+
+// Edit json-parse-on-frozen-object.js
